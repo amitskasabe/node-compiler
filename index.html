@@ -166,6 +166,52 @@
     </header>
     <div class="container-fluid mt-3">
       <div class="row">
+        <div class="col-lg-4">
+          <div class="card">
+            <div class="card-body">
+              <h1>Two Sum</h1>
+              <p>
+                Given an array of integers nums and an integer target, return
+                indices of the two numbers such that they add up to target. You
+                may assume that each input would have exactly one solution, and
+                you may not use the same element twice. You can return the
+                answer in any order.
+              </p>
+              <div class="example">
+                <div class="input-label">Example 1:</div>
+                <div class="input">
+                  <span>Input: </span>
+                  <span>nums = [2,7,11,15], target = 9</span>
+                </div>
+                <div class="output-label">Output:</div>
+                <div class="output">[0, 1]</div>
+                <div class="explanation">
+                  Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].
+                </div>
+              </div>
+
+              <div class="example">
+                <div class="input-label">Example 2:</div>
+                <div class="input">
+                  <span>Input: </span>
+                  <span>nums = [3,2,4], target = 6</span>
+                </div>
+                <div class="output-label">Output:</div>
+                <div class="output">[1, 2]</div>
+              </div>
+
+              <div class="example">
+                <div class="input-label">Example 3:</div>
+                <div class="input">
+                  <span>Input: </span>
+                  <span>nums = [3,3], target = 6</span>
+                </div>
+                <div class="output-label">Output:</div>
+                <div class="output">[0, 1]</div>
+              </div>
+            </div>
+          </div>
+        </div>
         <div class="col-lg-8">
           <div class="card">
             <div class="card-body">
@@ -175,7 +221,13 @@
                 <option value="python">Python</option>
               </select>
               <textarea id="area" class="scroll-container mt-5"> </textarea>
-
+              <button
+                class="btn btn-primary mt-2"
+                style="float: right"
+                id="submit"
+              >
+                Submit
+              </button>
               <button
                 class="btn btn-primary mt-2"
                 style="float: right; margin-right: 10px"
@@ -185,12 +237,12 @@
               </button>
             </div>
           </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="card mt-2">
-            <div class="card-body">
-              <textarea id="output" readonly class="form-control mt-2">
-              </textarea>
+          <div class="col-lg-12">
+            <div class="card mt-2">
+              <div class="card-body">
+                <textarea id="output" readonly class="form-control mt-2">
+                </textarea>
+              </div>
             </div>
           </div>
         </div>
