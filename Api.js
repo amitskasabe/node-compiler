@@ -8,7 +8,6 @@ app.use(bodyP.json());
 app.use("/codemirror", express.static("D:/test/codemirror/codemirror"));
 
 
-
 app.get("/", function (req, res) {
     compiler.flush(function () {
         console.log("deleted");
