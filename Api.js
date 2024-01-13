@@ -3,7 +3,7 @@ const app = express();
 const bodyP = require("body-parser");
 const compiler = require("compilex");
 const options = { stats: true };
-const PORT = 9000;
+const PORT = process.env.PORT;
 compiler.init(options);
 app.use(bodyP.json());
 app.use("/codemirror", express.static("D:/test/codemirror/codemirror"));
