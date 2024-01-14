@@ -3,6 +3,7 @@ const app = express();
 const bodyP = require("body-parser");
 const compiler = require("compilex");
 const options = { stats: true };
+const PORT = 9000
 compiler.init(options);
 app.use(bodyP.json());
 app.use("/codemirror", express.static("D:/test/codemirror/codemirror"));
@@ -89,7 +90,7 @@ app.post("/compile", function (req, res) {
     }
 });
 
-app.listen(9000, function () {
+app.listen(PORT, function () {
     console.log("Server is listening on port 9000");
 
 });
