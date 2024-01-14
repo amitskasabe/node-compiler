@@ -11,7 +11,7 @@
 <p>1. 1</p>
 
 ```
-Clone this repository 
+git clone https://github.com/amitskasabe/node-compiler.git
 ```
 
 <p>2. 1</p>
@@ -29,13 +29,13 @@ Make sure you've node js installed in your system
 <p>4. 1</p>
 
 ```
-run this command - npm install
+npm install
 ```
 
 <p>5. 1</p>
 
 ```
-run this command - npm start
+npm start
 ```
 
 <h2>🍰 Contribution Guidelines:</h2>
