@@ -4,7 +4,7 @@
 
 <h2>Project Screenshots:</h2>
 
-<img src="https://compiler.codeseed.in/SS.png" alt="project-screenshot" width="400" height="400/">
+<img src="https://compiler.codeseed.in/SS.png" alt="project-screenshot" width="1000" height="400/">
 
 <h2>🛠️ Installation Steps:</h2>
 
