@@ -1,4 +1,6 @@
-<h1 align="center" id="title">NODE JS COMPILE - BY AMIT KASABE</h1>
+<h1 align="center" id="title">NODE JS COMPILER - BY AMIT KASABE</h1>
+
+<p align="center"><img src="https://socialify.git.ci/amitskasabe/node-compiler/image?language=1&amp;owner=1&amp;name=1&amp;stargazers=1&amp;theme=Light" alt="project-image"></p>
 
 <p id="description">This is the complete code of online compiler using node js which includes 3 languages such as C++ Java and Python it simply compiles the code and results the output</p>
 
